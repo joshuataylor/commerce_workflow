@@ -1,0 +1,4 @@
+services:
+  plugin.manager.workflow_group:
+    class: Drupal\commerce_workflow\WorkflowGroupManager
+    arguments: ['@module_handler', '@cache.discovery']
